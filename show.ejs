@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show</title>
+</head>
+<style>
+    table {
+        border-collapse: collapse;
+        width: 25%;
+        float: left;
+    }
+
+    th {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        background-color: #04AA6D;
+        color: white;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    tr:hover {
+        background-color: #ddd;
+    }
+</style>
+
+<body>
+    
+  
+    <table>
+        <tr>
+            <th>kingsearch</th>
+        </tr>
+        <tr>
+            <td>
+                <%=kingsearch.name%>
+            </td>
+            <td>
+                <%=kingsearch.place%>
+            </td>
+            <td>
+                <%=kingsearch.type%>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
